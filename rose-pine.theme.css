@@ -8,11 +8,7 @@
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,CASL@300..1000,1&display=swap');
-
-@font-face {
-  font-family: Recursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV@300..1000,1,1&display=swap');
 
 .theme-dark {
 	--menu-item-default-hover-bg: #191724;
@@ -106,6 +102,10 @@
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #f2e9e1;
 	--scrollbar-auto-track: transparent;
+}
+
+:root {
+  --app-font: "Recursive";
 }
 
 .mainCard__0ec2c {
