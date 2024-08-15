@@ -9,11 +9,12 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV,MONO@300..1000,1,1,0..1&display=swap');
+@import url("https://raw.githubusercontent.com/iosevka-webfonts/iosevka/main/iosevka.css");
 
 :root {
   --font-primary: "Recursive", sans-serif;
   --font-display: "Recursive", sans-serif;
-  --font-code: "Recursive", monospace;
+  --font-code: "Iosevka Web", monospace;
 }
 
 .theme-dark {
