@@ -8,6 +8,12 @@
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,CASL@300..1000,1&display=swap');
+
+@font-face {
+  font-family: Recursive;
+}
+
 .theme-dark {
 	--menu-item-default-hover-bg: #191724;
 	--menu-item-default-active-bg: #26233a;
